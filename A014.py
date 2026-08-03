@@ -39,3 +39,6 @@ metrics={"accuracy":accuracy}
 with open("metrics.json","w") as f:
     json.dump(metrics,f,indent=4)
 print("training Completed Successfully")
+
+
+print("Training started")
